@@ -1,0 +1,273 @@
+/*
+ Theme Name:   Rampages Home
+ Theme URI:    http://
+ Description:  WP-Bootstrap Child Theme for the rampages home
+ Author:       Tom Woodward
+ Author URI:   http://bionicteaching.com
+ Template:     wp-bootstrap
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  ramhome
+*/
+
+a {
+	color:#BE3F21;
+}
+
+a:hover {
+	background-color: #f8f8f8;
+	color: #000;
+}
+
+.response p, .response p a{
+	color:black;
+	text-decoration: none;
+}
+
+
+.page-header{
+	padding-bottom: 5px;
+    margin: 20px 0 20px;
+    border-bottom: 1px solid #eee;
+    background-color: #efefef;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+h1.page-title, h1.page-header{
+    padding: 0px;
+    font-weight: 200;
+    margin: 0px;
+}
+
+.front-title, .front-title:a,  {
+    color:#424242;
+}
+
+.btn-pad {
+    margin-top:12px;
+    margin-bottom: 10px;
+}
+
+.response {
+	display: inline-block;
+    width: 100%;
+    border: 1px solid #efefef;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 5px 5px 5px 10px;
+}
+
+.response:hover {
+	background-color: #efefef;
+} 
+
+#widget-footer  {
+    background-color: #fff;
+}
+
+.banner {
+    position: relative;
+    height:250px;
+    margin-bottom: 55px;
+
+}
+.banner img {
+    display: block;
+    width: 100%;
+    max-width: 1200px; /* corresponds to max height of 450px */
+    margin: 0 auto;
+}
+
+.navbar .container, .collapse, .navbar-collapse, .navbar-responsive-collapse, .navbar, .navbar-default, .navbar-fixed-top {
+	background-color: ##f8f8f8;
+}
+
+#sidebar1 {
+	margin-top: 20px;
+}
+
+.btn-success {
+    color: #000;
+    background-color: #f8f8f8;
+    border-color: #efefef;
+   }
+
+ .btn-success:hover{
+ 	background-color: #efefef;
+ 	color: #000;
+ 	border-color: #f8f8f8;
+ }
+
+/*
+category list plugin styling 
+*/
+
+.listing-item {
+	display: inline-block;
+    width: 100%;
+    border: 1px solid #BE3F21;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 5px 5px 5px 10px;
+}
+
+.listing-item .title {
+	text-decoration: none;
+	font-size: 1.4em;
+	font-weight: 500;
+}
+
+.listing-item img {
+	display: inline-block;
+	float:left;
+	padding: 5px 10px 5px 5px;
+}
+
+body { 
+    background-color:#424242;
+}
+
+.page-header {
+    background-color: #fff;
+    padding-top: 0px;
+}
+
+#content {
+    background-color: #fff;
+    padding: 10px;
+}
+
+footer {
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+
+.trio {
+    background-color: #fff;
+    border-right: 10px #424242 solid;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+#menu-main {
+    text-transform: uppercase;
+}
+
+/* footer-y things*/
+
+#inner-footer hr{
+    display: none;
+}
+
+#sidebar-3 {
+    background-color: #fff;
+}
+
+.sidebar3 {
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+/* header stuff */
+i {
+  display:block;
+  background:rgba(192, 57, 43,.5);
+  z-index:-1;
+}
+canvas#spiders {
+  height:600px;
+  z-index: -1000;
+}
+
+.header-title, .header-title a {
+    margin-top: -600px;
+    font-size: 2em;
+    color:#F8B800;
+    margin-left: 20px;  
+    text-transform: uppercase;  
+}
+
+.site-description {
+    margin-left: 25px;
+    margin-top: -10px;
+    font-size: .75em;
+    color:#fff;
+}
+
+.nodes {
+    height:200px;
+}
+
+/* buddy press activity stream and registration*/
+.mu_register form{
+    z-index: 300;
+    position: relative;
+}
+
+#signup-content {
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+#buddypress div.activity-meta {
+    display:none;
+}
+
+#content {
+    margin-bottom: 40px;
+}
+
+#whats-new-form {
+    display: none;
+}
+
+#buddypress ul.item-list li {
+    border: 1px #efefef solid;
+    margin: 5px;
+    padding: 10px;
+}
+
+#buddypress .activity-list .activity-content .activity-header, #buddypress .activity-list .activity-content .comment-header {
+    font-size: 1.1em;
+    padding-left: 8px;
+    padding-right: 3px;  
+    background-color: #efefef;  
+}
+
+.activity-time-since {
+    display: block;
+    font-size: .8em;
+}
+
+#buddypress #activity-stream p {
+    margin: 0px;
+}
+
+#main article img {
+    display: block;
+    padding:4px;
+    border: 1px solid #efefef;
+    margin: 3px;
+}
+
+@media(max-width:767px){
+    .listing-item {
+    display: inline-block;
+    width: 100%;
+    border: 2px solid #BE3F21;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 5px 5px 5px 10px;
+}
+
+}
+
