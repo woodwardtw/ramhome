@@ -14,7 +14,7 @@ Template Name: New Homepage with nodes and stuff
 
 					// The Reviews Query + the hashtag - shows only the first two submitted
 					$args = array( 
-							'posts_per_page' => 6,
+							'posts_per_page' => 5,
 							'order' => 'DSC',
 							'cat' => 36,
 							);
@@ -35,6 +35,13 @@ Template Name: New Homepage with nodes and stuff
 						wp_reset_postdata();
 
 						?> 
+						<div class="col-md-4 trio">
+							<?php
+							  $blog_count = get_blog_count();
+							  echo 'Join <span class="blogcount">'.$blog_count.'</span> other blogs on rampages.';
+							?>
+
+						</div>
 
 						<?php
 
